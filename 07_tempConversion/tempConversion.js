@@ -1,10 +1,12 @@
-const ftoc = function() {
+const ftoc = function(f) {
+  return math.round((f - 32) * (5/9))
+ }
+ 
+ const ctof = function(c) {
+  return Math.round(((c * 9/5) + 32))
+ }
 
-};
 
-const ctof = function() {
-
-};
 
 // Do not edit below this line
 module.exports = {
